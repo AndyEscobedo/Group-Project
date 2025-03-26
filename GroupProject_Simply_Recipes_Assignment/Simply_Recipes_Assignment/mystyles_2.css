@@ -1,0 +1,81 @@
+/* Navbar (Start) */
+.hover a {
+    color: #000000;
+    font-size: 19px;
+    text-align: center;
+}
+.hover a:hover {
+    color:rgb(107, 53, 255);
+}
+a.navbar-brand {  /* Navbar logo (Start) */
+    font-size: 30px; 
+    font-weight: 700;
+    font-family:'Andale Mono', monospace;   
+}
+.navbar-brand span {
+    color: rgb(107, 53, 255); /* Navbar logo (End) */
+}
+/* Navbar (End) */
+
+/* Contact button */
+.contact-button {
+    background-color: rgb(107, 53, 255);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 90px;
+}
+
+.contact-button:hover {
+    opacity: 1;
+    color: white;
+}
+
+/* vertical menu (Start)*/
+.vertical-menu {
+    font-size: 19px;
+}
+
+.vertical-menu h2 {
+    font-size: 40px;
+}
+
+.vertical-menu a {
+    color: grey;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+/* vertical menu (End)*/
+
+/* Description for imgs (Start) */
+div.desc {
+    padding: 15px;
+}
+.desc h3 {
+    color: rgb(99, 99, 99);
+}
+/* Description for imgs (End) */
+
+/* Footer text color (Start) */
+.color-purple {
+    color: rgb(107, 53, 255); 
+}
+body{
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+}
+footer{
+margin-top: auto;
+}
+/* Footer text color (End) */
