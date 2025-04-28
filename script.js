@@ -1,6 +1,7 @@
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault(); // Stop form from actually submitting
-
+    // No Input Sanitization
+    // Accepts any input
     let username = document.getElementById('username').value;
     let password = document.getElementById('password').value;
 
